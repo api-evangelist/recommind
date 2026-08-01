@@ -1,8 +1,24 @@
 aid: recommind
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recommind.png
 name: Recommind
-description: 'Recommind is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Recommind was an enterprise information analytics and eDiscovery software
+  company founded in 2000, best known for its CORE predictive-analytics platform and
+  its Axcelerate eDiscovery and information-governance products used by legal and enterprise
+  customers. OpenText acquired Recommind in 2016, and the Recommind brand and its technology
+  are now folded into OpenText''s Discovery and information-management portfolio. The
+  standalone recommind.com domain now redirects to the OpenText brand page, and no
+  independent Recommind developer portal, API reference, or API surface remains.'
 url: https://raw.githubusercontent.com/api-evangelist/recommind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- eDiscovery
+- Legal Tech
+- Information Governance
+- Analytics
+- Machine Learning
+- OpenText
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/recommind-domain-security.yml
 - type: Website
   url: https://www.recommind.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
