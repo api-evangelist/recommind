@@ -49,7 +49,7 @@ tags:
 - Legal Tech
 - Information Governance
 - Analytics
-- Machine-Learning
+- Machine Learning
 - OpenText
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Analytics
 - Machine Learning
 - OpenText
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
